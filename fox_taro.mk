@@ -25,6 +25,11 @@ OF_FLASHLIGHT_ENABLE := 1
 OF_ALLOW_DISABLE_NAVBAR := 0
 OF_ENABLE_USB_STORAGE := 1
 
+# Maximum permissible splash image size (in kilobytes); do *NOT* increase
+OF_SPLASH_MAX_SIZE := 130
+
+OF_ADVANCED_SECURITY := 1
+
 # OrangeFox GUI settings
 OF_SCREEN_H := 2412
 OF_STATUS_H := 100
